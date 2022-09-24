@@ -3,7 +3,7 @@ import { Request, Response } from 'express';
 import * as jwt from 'jwt-then';
 import { setInterval } from 'timers';
 import config from '../../config/config';
-import getTokenPrice from '../../helpers/tokenPrice';
+import getTokenPrice from '../../helpers/tokenPrice_oracle';
 import Price from './price.model';
 
 
